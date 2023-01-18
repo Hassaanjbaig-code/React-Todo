@@ -1,8 +1,4 @@
-import React from "react"
-import { useParams } from "react-router-dom"
+import React from 'react';
 
-const SinglePage = () => {
-  console.log(useParams())
-  return <div>Hello from single page</div>
-}
-export default SinglePage
+const SinglePage = () => <div>Hello from single page</div>;
+export default SinglePage;
